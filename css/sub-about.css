@@ -1,0 +1,23 @@
+/* about - section1 */
+#section1 .container {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+#section2 img{
+    width: 100%;
+}
+/* about - section2 */
+#section2 .container .item {
+    display: inline-block;
+    width: calc((100% - 40px) / 3);
+    text-align: center;
+    /* outline: 1px solid red; */
+    padding-left: 20px;
+    margin-bottom: 170px;
+    
+}
+
+#section2 .container p {
+    text-align: left;
+}

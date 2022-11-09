@@ -1,0 +1,40 @@
+#sub-title h1, #sub-title-location h1, #sub-title-korea h1 {
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 한국무용홈페이지,about홈페이지 */
+#sub-title.about, #sub-title-korea {
+    height: 300px;
+    background-image: url(../images/sub-title-visual.jpg);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#year {
+    padding-left: 20px;
+}
+
+#year h2 {
+    margin-bottom: 50px;
+}
+
+/* 연혁 좌우배치 */
+#year .year1, #year .year2 {
+    display: inline-flex;
+    margin-right: 20px;
+    width: calc((100% - 50px) / 2);
+}
+
+#year .year1 .list, #year .year2 .list {
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+#year .container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+#year .list {
+    color: #5a5a5a;
+}

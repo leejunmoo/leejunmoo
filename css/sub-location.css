@@ -1,0 +1,40 @@
+/* location - location */
+#location #sub-title{
+    background-image: url(../images/sub-title-visual.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#location #map {
+    padding: 70px 0 50px;
+}
+
+#location .location-info {
+    outline: 1px solid #333;
+    display: flex;
+}
+
+#location .location-info img {
+    width: 50%;
+}
+
+#location .location-info .address {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-style: none;
+}

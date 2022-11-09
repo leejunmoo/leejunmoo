@@ -1,3 +1,9 @@
+@import "../css/sub3-1.css";/* 한국무용 소개 */
+@import "../css/sub-location.css";/* 오시는 길 */
+@import "../css/sub-about.css";/* 학과소개 */
+
+
+
 /* sub page용 타이틀(서브 공통) */
 #sub-title h1, #sub-title-location h1, #sub-title-korea h1 {
     font-size: 40px;
@@ -20,115 +26,11 @@
     align-items: center;
 }
 
-
-
 .active {
     font-weight: bold;
 }
 
-
-
-/* 고유 영역 */
-/* section1 */
-#section1 .container {
-    padding: 50px 20px;
-    margin-bottom: 50px;
-}
-
-#section2 img{
-    width: 100%;
-}
-/* section2 */
-#section2 .container .item {
-    display: inline-block;
-    width: calc((100% - 40px) / 3);
-    text-align: center;
-    /* outline: 1px solid red; */
-    padding-left: 20px;
-    margin-bottom: 170px;
-    
-}
-
-#section2 .container p {
-    text-align: left;
-}
-
-/* location */
-#location #sub-title{
-    background-image: url(../images/sub-title-visual.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#location #map {
-    padding: 70px 0 50px;
-}
-
-#location .location-info {
-    outline: 1px solid #333;
-    display: flex;
-}
-
-#location .location-info img {
-    width: 50%;
-}
-
-#location .location-info .address {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-th, td {
-    padding: 5px;
-}
-
-th {
-    text-align: left;
-    vertical-align: top;
-}
-
-table, th, td {
-    border-collapse: collapse;
-    border-style: none;
-}
-
-/* 한국무용 */
-#year {
-    padding-left: 20px;
-}
-
-#year h2 {
-    margin-bottom: 50px;
-}
-
-/* 연혁 좌우배치 */
-#year .year1, #year .year2 {
-    display: inline-flex;
-    margin-right: 20px;
-    width: 45%
-}
-
-#year .year1 .list, #year .year2 .list {
-    margin-left: 55px;
-    margin-bottom: 50px;
-}
-
-#year .container {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    margin-bottom: 50px;
-}
-
-#year .list {
-    color: #5a5a5a;
-}
-
-
-
-
-
-/* lnb 메뉴 */
+/* 공통 - lnb 메뉴 */
 #lnb {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-top: 28px;
@@ -141,10 +43,4 @@ table, th, td {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
-
-
-
-
 
