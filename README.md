@@ -1,4 +1,4 @@
-### Hi there 👋
+### 숙명여자대학교 무용과 홈페이지 리디자인 👋
 
 <!--
 **leejunmoo/leejunmoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
