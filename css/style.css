@@ -37,6 +37,10 @@ a {
     color: #000;
 }
 
+p {
+    line-height: 26px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -83,8 +87,13 @@ a {
     border: 1px solid #ccc;
     padding: 10px;
     margin-top: 26px;
-    display: none;
+   /*  display: none; */
+   /* 메뉴드롭다운 이펙트 */
     text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s;
 }
 
 #gnb .depth2 > li {
@@ -97,7 +106,10 @@ a {
 
 /* hover 액션 */
 #gnb .depth1 > li:hover .depth2 {
-    display: block;
+    /* display: block; */
+    /* 메뉴드롭다운 이펙트 맥스값으로잡으면 알아서맞춰서적용 */
+    max-height: 200px;
+    opacity: 1;
 }
 
 #gnb .depth1 > li > a:hover {
@@ -306,14 +318,43 @@ a {
     right: 0;
     top: 0;
     border-style: none;
-    background-color: #fff;
+    background-color: transparent;
+    cursor: pointer;
 }
 /* 사이트맵 메뉴팝업 비표시 */
 #site-map-menu {
     display: none;
+    /* visibility: hidden; */
 }
 
 /* 사이트맵 메뉴팝업 표시상태 */
 #site-map-menu.show {
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-direction: alternate;
     display: block;
+    /* display와 다르게 레이아웃에영향을끼침 */
+    /* visibility: visible; */
+    
 }
+
+@keyframes pop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pop-re {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* 숙대홈페이지css참고 포지셔닝이용해서 사이트맵효과줬음
+    집가서해봐라 안된다 준무야...주륵*/
