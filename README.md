@@ -1,10 +1,10 @@
 ### 숙명여자대학교 무용과 홈페이지 리디자인 👋
-      Flex Layout 응용<br>
-      2단계 메뉴<br>
-      slide down 효과<br>
-      이미지 슬라이더<br>
-      이미지 번호 표시 UI<br>
-      토글 UI, 사이트맵 레이어 팝업창<br>
+      Flex Layout 응용
+      2단계 메뉴
+      slide down 효과
+      이미지 슬라이더
+      이미지 번호 표시 UI
+      토글 UI, 사이트맵 레이어 팝업창
       위로가기 버튼
 <!--
 **leejunmoo/leejunmoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
