@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-ul {
+ul:not(.list){
     list-style-type: none;
 }
 

@@ -1,16 +1,26 @@
 /* sub page용 타이틀(서브 공통) */
-#sub-title h1 {
+#sub-title h1, #sub-title-location h1, #sub-title-korea h1 {
     font-size: 40px;
     font-family: 'Noto Sans KR', sans-serif;
 }
+/* 한국무용홈페이지,about홈페이지 */
+#sub-title.about, #sub-title-korea {
+    height: 300px;
+    background-image: url(../images/sub-title-visual.jpg);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
 
-#sub-title {
+#sub-title-location {
     height: 300px;
     background-image: url(../images/location\ bg.jpg);
     color: #fff;
     display: flex;
     align-items: center;
 }
+
+
 
 .active {
     font-weight: bold;
@@ -19,34 +29,6 @@
 
 
 /* 고유 영역 */
-/* location */
-#location #sub-title{
-    background-image: url(../images/sub-title-visual.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#location #map {
-    padding: 70px 0 50px;
-}
-
-#location .location-info {
-    outline: 1px solid #333;
-    display: flex;
-}
-
-#lnb {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding-top: 28px;
-    padding-bottom: 28px;
-    text-align: center;
-}
-
-#lnb ul li {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 /* section1 */
 #section1 .container {
     padding: 50px 20px;
@@ -67,11 +49,99 @@
     
 }
 
-
-
 #section2 .container p {
     text-align: left;
 }
+
+/* location */
+#location #sub-title{
+    background-image: url(../images/sub-title-visual.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#location #map {
+    padding: 70px 0 50px;
+}
+
+#location .location-info {
+    outline: 1px solid #333;
+    display: flex;
+}
+
+#location .location-info img {
+    width: 50%;
+}
+
+#location .location-info .address {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-style: none;
+}
+
+/* 한국무용 */
+#year {
+    padding-left: 20px;
+}
+
+#year h2 {
+    margin-bottom: 50px;
+}
+
+/* 연혁 좌우배치 */
+#year .year1, #year .year2 {
+    display: inline-flex;
+    margin-right: 20px;
+    width: 45%
+}
+
+#year .year1 .list, #year .year2 .list {
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+#year .container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+#year .list {
+    color: #5a5a5a;
+}
+
+
+
+
+
+/* lnb 메뉴 */
+#lnb {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+#lnb ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 
