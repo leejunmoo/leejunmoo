@@ -6,7 +6,7 @@
 
 #sub-title {
     height: 300px;
-    background-color: #999999;
+    background-image: url(../images/location\ bg.jpg);
     color: #fff;
     display: flex;
     align-items: center;
@@ -19,11 +19,20 @@
 
 
 /* 고유 영역 */
-/* about */
-#about #sub-title{
+/* location */
+#location #sub-title{
     background-image: url(../images/sub-title-visual.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#location #map {
+    padding: 70px 0 50px;
+}
+
+#location .location-info {
+    outline: 1px solid #333;
+    display: flex;
 }
 
 #lnb {
@@ -63,6 +72,9 @@
 #section2 .container p {
     text-align: left;
 }
+
+
+
 
 
 
