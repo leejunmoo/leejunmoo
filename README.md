@@ -6,7 +6,6 @@
 안녕하세요!     
 새싹 웹퍼블리셔 이준무입니다😎    
 
-
 ---     
 ### ✨Skill✨
 
@@ -32,6 +31,7 @@
 <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=Adobe Photoshop&logoColor=white"/>
 <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=Adobe Illustrator&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>
 
 ----
 
