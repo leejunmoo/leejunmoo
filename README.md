@@ -4,7 +4,7 @@
 
 
 안녕하세요!     
-새싹 웹퍼블리셔 이준무입니다😎    
+새싹 웹퍼블리셔 이준무입니다😎      
 
 ---     
 ### ✨Skill✨
@@ -35,6 +35,8 @@
 
 ----
 
+     
+     ### 포트폴리오: https://web-portfolio-fyyf25lboho2ya.gksl2.cloudtype.app/
 
 
 
